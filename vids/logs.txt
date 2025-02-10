@@ -2,7 +2,7 @@
 
 ---------------------------------------------------------------------
 Processing C:\Users\chris\Documents\GitHub\baseballds\vids\pitch0.mp4
-On Thursday 06. February 2025, 15:08:20
+On Monday 10. February 2025, 15:13:21
 ---------------------------------------------------------------------
 Using HALPE_26 model (body and feet) for pose estimation.
 
@@ -58,4 +58,491 @@ Filtering with Butterworth filter, 4th order, 6 Hz.
 Correcting segment angles by removing the -1.93° floor angle.
 Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch0_Sports2D\pitch0_Sports2D_angles_person03.mot.
 
-Processing C:\Users\chris\Documents\GitHub\baseballds\vids\pitch0.mp4 took 56.53 s.
+Processing C:\Users\chris\Documents\GitHub\baseballds\vids\pitch0.mp4 took 43.08 s.
+
+
+---------------------------------------------------------------------
+Processing C:\Users\chris\Documents\GitHub\baseballds\vids\pitch1.mp4
+On Monday 10. February 2025, 15:14:04
+---------------------------------------------------------------------
+Using HALPE_26 model (body and feet) for pose estimation.
+
+No valid CUDA installation found: using OpenVINO backend with CPU.
+
+Pose tracking set up for "body_with_feet" model.
+Mode: balanced.
+
+Persons are detected every 4 frames and tracked inbetween. Multi-person is selected.
+Parameters: keypoint_likelihood_threshold=0.3, average_likelihood_threshold=0.5, keypoint_number_threshold=0.3
+Skipping right wrist angle computation because at least one of the following keypoints is not provided by the model: ['RElbow', 'RWrist', 'RIndex'].
+Skipping left wrist angle computation because at least one of the following keypoints is not provided by the model: ['LElbow', 'LIndex', 'LWrist'].
+
+Processing video stream...
+Video processing completed.
+
+Post-processing pose:
+- Person 0: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch1_Sports2D\pitch1_Sports2D_px_person00.trc.
+- Person 1: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch1_Sports2D\pitch1_Sports2D_px_person01.trc.
+- Person 2: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch1_Sports2D\pitch1_Sports2D_px_person02.trc.
+- Person 3: Less than 4 valid frames. Deleting person.
+
+Converting pose to meters:
+Using height of person #0 (1.7m) to convert coordinates in meters. Floor angle: auto (estimation: -4.65°), xy_origin: auto (estimation: [0, 893]).
+Person 0: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch1_Sports2D\pitch1_Sports2D_m_person00.trc.
+Person 1: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch1_Sports2D\pitch1_Sports2D_m_person01.trc.
+Person 2: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch1_Sports2D\pitch1_Sports2D_m_person02.trc.
+
+Post-processing angles:
+- Person 0: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -4.65° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch1_Sports2D\pitch1_Sports2D_angles_person00.mot.
+- Person 1: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -4.65° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch1_Sports2D\pitch1_Sports2D_angles_person01.mot.
+- Person 2: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -4.65° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch1_Sports2D\pitch1_Sports2D_angles_person02.mot.
+- Person 3: Less than 4 valid frames. Deleting person.
+
+Processing C:\Users\chris\Documents\GitHub\baseballds\vids\pitch1.mp4 took 44.05 s.
+
+
+---------------------------------------------------------------------
+Processing C:\Users\chris\Documents\GitHub\baseballds\vids\pitch2.mp4
+On Monday 10. February 2025, 15:14:48
+---------------------------------------------------------------------
+Using HALPE_26 model (body and feet) for pose estimation.
+
+No valid CUDA installation found: using OpenVINO backend with CPU.
+
+Pose tracking set up for "body_with_feet" model.
+Mode: balanced.
+
+Persons are detected every 4 frames and tracked inbetween. Multi-person is selected.
+Parameters: keypoint_likelihood_threshold=0.3, average_likelihood_threshold=0.5, keypoint_number_threshold=0.3
+Skipping right wrist angle computation because at least one of the following keypoints is not provided by the model: ['RElbow', 'RWrist', 'RIndex'].
+Skipping left wrist angle computation because at least one of the following keypoints is not provided by the model: ['LElbow', 'LIndex', 'LWrist'].
+
+Processing video stream...
+Video processing completed.
+
+Post-processing pose:
+- Person 0: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch2_Sports2D\pitch2_Sports2D_px_person00.trc.
+- Person 1: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch2_Sports2D\pitch2_Sports2D_px_person01.trc.
+- Person 2: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch2_Sports2D\pitch2_Sports2D_px_person02.trc.
+- Person 3: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch2_Sports2D\pitch2_Sports2D_px_person03.trc.
+- Person 4: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch2_Sports2D\pitch2_Sports2D_px_person04.trc.
+
+Converting pose to meters:
+Using height of person #0 (1.7m) to convert coordinates in meters. Floor angle: auto (estimation: -33.48°), xy_origin: auto (estimation: [0, 1195]).
+Person 0: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch2_Sports2D\pitch2_Sports2D_m_person00.trc.
+Person 1: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch2_Sports2D\pitch2_Sports2D_m_person01.trc.
+Person 2: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch2_Sports2D\pitch2_Sports2D_m_person02.trc.
+Person 3: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch2_Sports2D\pitch2_Sports2D_m_person03.trc.
+Person 4: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch2_Sports2D\pitch2_Sports2D_m_person04.trc.
+
+Post-processing angles:
+- Person 0: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -33.48° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch2_Sports2D\pitch2_Sports2D_angles_person00.mot.
+- Person 1: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -33.48° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch2_Sports2D\pitch2_Sports2D_angles_person01.mot.
+- Person 2: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -33.48° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch2_Sports2D\pitch2_Sports2D_angles_person02.mot.
+- Person 3: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -33.48° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch2_Sports2D\pitch2_Sports2D_angles_person03.mot.
+- Person 4: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -33.48° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch2_Sports2D\pitch2_Sports2D_angles_person04.mot.
+
+Processing C:\Users\chris\Documents\GitHub\baseballds\vids\pitch2.mp4 took 76.53 s.
+
+
+---------------------------------------------------------------------
+Processing C:\Users\chris\Documents\GitHub\baseballds\vids\pitch3.mp4
+On Monday 10. February 2025, 15:16:04
+---------------------------------------------------------------------
+Using HALPE_26 model (body and feet) for pose estimation.
+
+No valid CUDA installation found: using OpenVINO backend with CPU.
+
+Pose tracking set up for "body_with_feet" model.
+Mode: balanced.
+
+Persons are detected every 4 frames and tracked inbetween. Multi-person is selected.
+Parameters: keypoint_likelihood_threshold=0.3, average_likelihood_threshold=0.5, keypoint_number_threshold=0.3
+Skipping right wrist angle computation because at least one of the following keypoints is not provided by the model: ['RElbow', 'RWrist', 'RIndex'].
+Skipping left wrist angle computation because at least one of the following keypoints is not provided by the model: ['LElbow', 'LIndex', 'LWrist'].
+
+Processing video stream...
+Video processing completed.
+
+Post-processing pose:
+- Person 0: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch3_Sports2D\pitch3_Sports2D_px_person00.trc.
+- Person 1: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch3_Sports2D\pitch3_Sports2D_px_person01.trc.
+- Person 2: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch3_Sports2D\pitch3_Sports2D_px_person02.trc.
+- Person 3: Less than 4 valid frames. Deleting person.
+
+Converting pose to meters:
+Using height of person #0 (1.7m) to convert coordinates in meters. Floor angle: auto (estimation: 7.59°), xy_origin: auto (estimation: [0, 1662]).
+Person 0: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch3_Sports2D\pitch3_Sports2D_m_person00.trc.
+Person 1: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch3_Sports2D\pitch3_Sports2D_m_person01.trc.
+Person 2: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch3_Sports2D\pitch3_Sports2D_m_person02.trc.
+
+Post-processing angles:
+- Person 0: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the 7.59° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch3_Sports2D\pitch3_Sports2D_angles_person00.mot.
+- Person 1: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the 7.59° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch3_Sports2D\pitch3_Sports2D_angles_person01.mot.
+- Person 2: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the 7.59° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch3_Sports2D\pitch3_Sports2D_angles_person02.mot.
+- Person 3: Less than 4 valid frames. Deleting person.
+
+Processing C:\Users\chris\Documents\GitHub\baseballds\vids\pitch3.mp4 took 73.66 s.
+
+
+---------------------------------------------------------------------
+Processing C:\Users\chris\Documents\GitHub\baseballds\vids\pitch4.mp4
+On Monday 10. February 2025, 15:17:18
+---------------------------------------------------------------------
+Using HALPE_26 model (body and feet) for pose estimation.
+
+No valid CUDA installation found: using OpenVINO backend with CPU.
+
+Pose tracking set up for "body_with_feet" model.
+Mode: balanced.
+
+Persons are detected every 4 frames and tracked inbetween. Multi-person is selected.
+Parameters: keypoint_likelihood_threshold=0.3, average_likelihood_threshold=0.5, keypoint_number_threshold=0.3
+Skipping right wrist angle computation because at least one of the following keypoints is not provided by the model: ['RElbow', 'RWrist', 'RIndex'].
+Skipping left wrist angle computation because at least one of the following keypoints is not provided by the model: ['LElbow', 'LIndex', 'LWrist'].
+
+Processing video stream...
+Video processing completed.
+
+Post-processing pose:
+- Person 0: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch4_Sports2D\pitch4_Sports2D_px_person00.trc.
+- Person 1: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch4_Sports2D\pitch4_Sports2D_px_person01.trc.
+- Person 2: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch4_Sports2D\pitch4_Sports2D_px_person02.trc.
+- Person 3: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch4_Sports2D\pitch4_Sports2D_px_person03.trc.
+
+Converting pose to meters:
+Using height of person #0 (1.7m) to convert coordinates in meters. Floor angle: auto (estimation: 27.58°), xy_origin: auto (estimation: [0, 1880]).
+Person 0: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch4_Sports2D\pitch4_Sports2D_m_person00.trc.
+Person 1: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch4_Sports2D\pitch4_Sports2D_m_person01.trc.
+Person 2: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch4_Sports2D\pitch4_Sports2D_m_person02.trc.
+Person 3: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch4_Sports2D\pitch4_Sports2D_m_person03.trc.
+
+Post-processing angles:
+- Person 0: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the 27.58° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch4_Sports2D\pitch4_Sports2D_angles_person00.mot.
+- Person 1: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the 27.58° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch4_Sports2D\pitch4_Sports2D_angles_person01.mot.
+- Person 2: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the 27.58° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch4_Sports2D\pitch4_Sports2D_angles_person02.mot.
+- Person 3: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the 27.58° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch4_Sports2D\pitch4_Sports2D_angles_person03.mot.
+
+Processing C:\Users\chris\Documents\GitHub\baseballds\vids\pitch4.mp4 took 69.53 s.
+
+
+---------------------------------------------------------------------
+Processing C:\Users\chris\Documents\GitHub\baseballds\vids\pitch5.mp4
+On Monday 10. February 2025, 15:18:27
+---------------------------------------------------------------------
+Using HALPE_26 model (body and feet) for pose estimation.
+
+No valid CUDA installation found: using OpenVINO backend with CPU.
+
+Pose tracking set up for "body_with_feet" model.
+Mode: balanced.
+
+Persons are detected every 4 frames and tracked inbetween. Multi-person is selected.
+Parameters: keypoint_likelihood_threshold=0.3, average_likelihood_threshold=0.5, keypoint_number_threshold=0.3
+Skipping right wrist angle computation because at least one of the following keypoints is not provided by the model: ['RElbow', 'RWrist', 'RIndex'].
+Skipping left wrist angle computation because at least one of the following keypoints is not provided by the model: ['LElbow', 'LIndex', 'LWrist'].
+
+Processing video stream...
+Video processing completed.
+
+Post-processing pose:
+- Person 0: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch5_Sports2D\pitch5_Sports2D_px_person00.trc.
+- Person 1: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch5_Sports2D\pitch5_Sports2D_px_person01.trc.
+- Person 2: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch5_Sports2D\pitch5_Sports2D_px_person02.trc.
+- Person 3: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch5_Sports2D\pitch5_Sports2D_px_person03.trc.
+- Person 4: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch5_Sports2D\pitch5_Sports2D_px_person04.trc.
+- Person 5: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch5_Sports2D\pitch5_Sports2D_px_person05.trc.
+- Person 6: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch5_Sports2D\pitch5_Sports2D_px_person06.trc.
+
+Converting pose to meters:
+Using height of person #0 (1.7m) to convert coordinates in meters. Floor angle: auto (estimation: -3.99°), xy_origin: auto (estimation: [0, 970]).
+Person 0: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch5_Sports2D\pitch5_Sports2D_m_person00.trc.
+Person 1: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch5_Sports2D\pitch5_Sports2D_m_person01.trc.
+Person 2: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch5_Sports2D\pitch5_Sports2D_m_person02.trc.
+Person 3: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch5_Sports2D\pitch5_Sports2D_m_person03.trc.
+Person 4: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch5_Sports2D\pitch5_Sports2D_m_person04.trc.
+Person 5: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch5_Sports2D\pitch5_Sports2D_m_person05.trc.
+Person 6: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch5_Sports2D\pitch5_Sports2D_m_person06.trc.
+
+Post-processing angles:
+- Person 0: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -3.99° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch5_Sports2D\pitch5_Sports2D_angles_person00.mot.
+- Person 1: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -3.99° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch5_Sports2D\pitch5_Sports2D_angles_person01.mot.
+- Person 2: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -3.99° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch5_Sports2D\pitch5_Sports2D_angles_person02.mot.
+- Person 3: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -3.99° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch5_Sports2D\pitch5_Sports2D_angles_person03.mot.
+- Person 4: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -3.99° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch5_Sports2D\pitch5_Sports2D_angles_person04.mot.
+- Person 5: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -3.99° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch5_Sports2D\pitch5_Sports2D_angles_person05.mot.
+- Person 6: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -3.99° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch5_Sports2D\pitch5_Sports2D_angles_person06.mot.
+
+Processing C:\Users\chris\Documents\GitHub\baseballds\vids\pitch5.mp4 took 78.34 s.
+
+
+---------------------------------------------------------------------
+Processing C:\Users\chris\Documents\GitHub\baseballds\vids\pitch6.mp4
+On Monday 10. February 2025, 15:19:46
+---------------------------------------------------------------------
+Using HALPE_26 model (body and feet) for pose estimation.
+
+No valid CUDA installation found: using OpenVINO backend with CPU.
+
+Pose tracking set up for "body_with_feet" model.
+Mode: balanced.
+
+Persons are detected every 4 frames and tracked inbetween. Multi-person is selected.
+Parameters: keypoint_likelihood_threshold=0.3, average_likelihood_threshold=0.5, keypoint_number_threshold=0.3
+Skipping right wrist angle computation because at least one of the following keypoints is not provided by the model: ['RElbow', 'RWrist', 'RIndex'].
+Skipping left wrist angle computation because at least one of the following keypoints is not provided by the model: ['LElbow', 'LIndex', 'LWrist'].
+
+Processing video stream...
+Video processing completed.
+
+Post-processing pose:
+- Person 0: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch6_Sports2D\pitch6_Sports2D_px_person00.trc.
+- Person 1: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch6_Sports2D\pitch6_Sports2D_px_person01.trc.
+- Person 2: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch6_Sports2D\pitch6_Sports2D_px_person02.trc.
+- Person 3: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch6_Sports2D\pitch6_Sports2D_px_person03.trc.
+- Person 4: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch6_Sports2D\pitch6_Sports2D_px_person04.trc.
+- Person 5: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch6_Sports2D\pitch6_Sports2D_px_person05.trc.
+
+Converting pose to meters:
+Using height of person #0 (1.7m) to convert coordinates in meters. Floor angle: auto (estimation: -51.73°), xy_origin: auto (estimation: [0, 4]).
+Person 0: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch6_Sports2D\pitch6_Sports2D_m_person00.trc.
+Person 1: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch6_Sports2D\pitch6_Sports2D_m_person01.trc.
+Person 2: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch6_Sports2D\pitch6_Sports2D_m_person02.trc.
+Person 3: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch6_Sports2D\pitch6_Sports2D_m_person03.trc.
+Person 4: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch6_Sports2D\pitch6_Sports2D_m_person04.trc.
+Person 5: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch6_Sports2D\pitch6_Sports2D_m_person05.trc.
+
+Post-processing angles:
+- Person 0: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -51.73° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch6_Sports2D\pitch6_Sports2D_angles_person00.mot.
+- Person 1: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -51.73° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch6_Sports2D\pitch6_Sports2D_angles_person01.mot.
+- Person 2: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -51.73° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch6_Sports2D\pitch6_Sports2D_angles_person02.mot.
+- Person 3: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -51.73° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch6_Sports2D\pitch6_Sports2D_angles_person03.mot.
+- Person 4: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -51.73° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch6_Sports2D\pitch6_Sports2D_angles_person04.mot.
+- Person 5: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -51.73° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch6_Sports2D\pitch6_Sports2D_angles_person05.mot.
+
+Processing C:\Users\chris\Documents\GitHub\baseballds\vids\pitch6.mp4 took 78.03 s.
+
+
+---------------------------------------------------------------------
+Processing C:\Users\chris\Documents\GitHub\baseballds\vids\pitch7.mp4
+On Monday 10. February 2025, 15:21:04
+---------------------------------------------------------------------
+Using HALPE_26 model (body and feet) for pose estimation.
+
+No valid CUDA installation found: using OpenVINO backend with CPU.
+
+Pose tracking set up for "body_with_feet" model.
+Mode: balanced.
+
+Persons are detected every 4 frames and tracked inbetween. Multi-person is selected.
+Parameters: keypoint_likelihood_threshold=0.3, average_likelihood_threshold=0.5, keypoint_number_threshold=0.3
+Skipping right wrist angle computation because at least one of the following keypoints is not provided by the model: ['RElbow', 'RWrist', 'RIndex'].
+Skipping left wrist angle computation because at least one of the following keypoints is not provided by the model: ['LElbow', 'LIndex', 'LWrist'].
+
+Processing video stream...
+Video processing completed.
+
+Post-processing pose:
+- Person 0: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch7_Sports2D\pitch7_Sports2D_px_person00.trc.
+- Person 1: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch7_Sports2D\pitch7_Sports2D_px_person01.trc.
+- Person 2: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch7_Sports2D\pitch7_Sports2D_px_person02.trc.
+- Person 3: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch7_Sports2D\pitch7_Sports2D_px_person03.trc.
+- Person 4: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch7_Sports2D\pitch7_Sports2D_px_person04.trc.
+- Person 5: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch7_Sports2D\pitch7_Sports2D_px_person05.trc.
+- Person 6: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Pose in pixels saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch7_Sports2D\pitch7_Sports2D_px_person06.trc.
+
+Converting pose to meters:
+Using height of person #0 (1.7m) to convert coordinates in meters. Floor angle: auto (estimation: -0.74°), xy_origin: auto (estimation: [0, 916]).
+Person 0: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch7_Sports2D\pitch7_Sports2D_m_person00.trc.
+Person 1: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch7_Sports2D\pitch7_Sports2D_m_person01.trc.
+Person 2: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch7_Sports2D\pitch7_Sports2D_m_person02.trc.
+Person 3: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch7_Sports2D\pitch7_Sports2D_m_person03.trc.
+Person 4: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch7_Sports2D\pitch7_Sports2D_m_person04.trc.
+Person 5: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch7_Sports2D\pitch7_Sports2D_m_person05.trc.
+Person 6: Pose in meters saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch7_Sports2D\pitch7_Sports2D_m_person06.trc.
+
+Post-processing angles:
+- Person 0: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -0.74° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch7_Sports2D\pitch7_Sports2D_angles_person00.mot.
+- Person 1: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -0.74° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch7_Sports2D\pitch7_Sports2D_angles_person01.mot.
+- Person 2: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -0.74° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch7_Sports2D\pitch7_Sports2D_angles_person02.mot.
+- Person 3: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -0.74° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch7_Sports2D\pitch7_Sports2D_angles_person03.mot.
+- Person 4: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -0.74° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch7_Sports2D\pitch7_Sports2D_angles_person04.mot.
+- Person 5: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -0.74° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch7_Sports2D\pitch7_Sports2D_angles_person05.mot.
+- Person 6: Interpolating missing sequences if they are smaller than 10 frames. Large gaps filled with last_value.
+Filtering with Butterworth filter, 4th order, 6 Hz.
+Correcting segment angles by removing the -0.74° floor angle.
+Angles saved to C:\Users\chris\Documents\GitHub\baseballds\vids\pitch7_Sports2D\pitch7_Sports2D_angles_person06.mot.
+
+Processing C:\Users\chris\Documents\GitHub\baseballds\vids\pitch7.mp4 took 102.50 s.
